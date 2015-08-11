@@ -149,13 +149,13 @@ int main()
 		
 		
 
-		//quickSort(SUM1, index1);
-		//quickSort(SUM2, index2);
+		quickSort(SUM1, index1);
+		quickSort(SUM2, index2);
 		
 		//bubble_sort(SUM1, index1);
 		//bubble_sort(SUM2, index2);
-		qsort(SUM1, index1, sizeof(int), compare);
-		qsort(SUM2, index2, sizeof(int), compare);
+		//qsort(SUM1, index1, sizeof(int), compare);
+		//qsort(SUM2, index2, sizeof(int), compare);
 
 
 		
